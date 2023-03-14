@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
 import './App.css'
 
 function App() {
@@ -7,7 +9,8 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Hello, world!</h1>
+      <Navbar />
+      <Hero />
     </div>
   )
 }
