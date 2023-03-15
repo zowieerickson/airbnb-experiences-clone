@@ -1,0 +1,55 @@
+.cards {
+    margin: 4em 3em;
+}
+
+.card {
+    max-width: 225px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card__copy {
+    font-size: 12px;
+}
+
+.card__image {
+    width: 100%;
+    border-radius: 9px;
+}
+
+.card__sticker {
+    position: relative;
+    top: -293px;
+    left: 11px;
+    padding: 5px 10px;
+    background-color: #fff;
+    color: #222;
+    font-weight: 400;
+    font-size: 10.24px;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+.card__details {
+    display: flex;
+    align-items: center;
+}
+
+.card__description {
+    margin: -4px 0;
+}
+
+.card__rating-icon {
+    width: 14px;
+    border-radius: .5px;
+    margin-right: 6px;
+    margin-bottom: 2px;
+}
+
+.card__country {
+    text-transform: uppercase;
+}
+
+.card__image-container {
+    margin-bottom: -22px;
+}
