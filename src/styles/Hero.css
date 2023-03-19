@@ -28,7 +28,11 @@
     font-size: .95rem;
 }
 
-@media screen and (min-width: 1068px) {
+@media screen and (min-width: 1069px) {
+    .header {
+        margin: 3em 6em;
+      }
+
     .hero__img {
         width: 950px;
     } 
@@ -45,23 +49,5 @@
         margin: 0;
         font-size: 1.15rem;
     }
+
 }
-
-/* @media screen and (max-width: 734px) {
-    .hero__img {
-        width: 600px
-    } 
-}
-
-@media screen and (max-width: 500px) {
-    .hero__img {
-        width: 300px
-    } 
-}
-
-@media screen and (max-width: 375px) {
-    .hero__img {
-        width: 265px
-    } 
-} */
-

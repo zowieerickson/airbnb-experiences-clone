@@ -7,9 +7,15 @@
 }
 
 .cards-list {
-    margin: 0 3em; 
+    margin: 0 3em 3em; 
     display: flex;
     flex-wrap: nowrap;
     gap: 20px;
     overflow-x: auto;
+}
+
+@media screen and (min-width: 1069px) {
+    .cards-list {
+      margin: 0 6em 3em;
+    }
 }
