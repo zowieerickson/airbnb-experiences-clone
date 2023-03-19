@@ -1,11 +1,9 @@
-.cards {
-    margin: 4em 3em;
-}
-
 .card {
     max-width: 225px;
-    display: flex;
+    flex: 0 0 auto;        
+    display: flex;         
     flex-direction: column;
+    position: relative;
 }
 
 .card__copy {
@@ -18,9 +16,9 @@
 }
 
 .card__sticker {
-    position: relative;
-    top: -293px;
-    left: 11px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
     padding: 5px 10px;
     background-color: #fff;
     color: #222;
@@ -48,8 +46,4 @@
 
 .card__country {
     text-transform: uppercase;
-}
-
-.card__image-container {
-    margin-bottom: -22px;
 }

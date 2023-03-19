@@ -5,3 +5,11 @@
 .gray-text {
     color: #918E9B;
 }
+
+.cards-list {
+    margin: 0 3em; 
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+}
