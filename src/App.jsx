@@ -5,16 +5,10 @@ import cardData from './data.js'
 import './App.css'
 
 function App() {
-  const cardElements = cardData.map(card => {
+  const cardElements = cardData.map(item => {
     return <Card
-      key={card.id}
-      img={card.coverImg}
-      rating={card.stats.rating}
-      reviewCount={card.stats.reviewCount}
-      location={card.location}
-      title={card.title}
-      price={card.price}
-      openSpots={card.openSpots}
+      key={item.id}
+      item={item}
     />
   })
 
